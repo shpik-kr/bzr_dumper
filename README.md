@@ -6,9 +6,9 @@ It was developed in python.
 The purpose of this tool is to dump .bzr on the web server. (e.g. http://targeturl/.bzr)
 
 ## Development Environment
-- Ubuntu 16.04
+- Ubuntu 19.04
 
-- python 3.5.2
+- python 3.8.0
 
 ## Usage
 python3 dumper.py -u "http://targeturl/" -o test
