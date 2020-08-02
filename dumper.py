@@ -78,3 +78,4 @@ if __name__=="__main__":
 	os.chdir(args.output)
 	os.system('bzr init')
 	doDump(args.url)
+	os.system('bzr revert')
